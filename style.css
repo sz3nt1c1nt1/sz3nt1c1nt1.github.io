@@ -1,0 +1,76 @@
+.container {
+  font-family: 'Open Sans';
+  width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cardholder {
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  width: 180px;
+  background-color: #3cb878;
+  text-align: center;
+  padding-top: 20px;
+  color: white;
+  padding-bottom: 5px;
+  box-shadow: 0px 0px 3px 2px grey;
+}
+.newsletter-form {
+  color: grey;
+  position: relative;
+  border: solid thin #cfcfcf;
+  padding: 10px;
+  border-radius: 3px;
+  margin-top: 40px;
+}
+.newsletter-form h3 {
+  margin-top: 0px;
+}
+.newsletter-form #email {
+  display: block;
+  width: 100%;
+  border-color: solid thin #cfcfcf;
+  height: 30px;
+  padding-left: 3px;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+.newsletter-form button {
+  display: block;
+  width: 100%;
+  background-color: #3cb878;
+  border: 0;
+  color: white;
+  height: 30px;
+  margin-top: 5px;
+}
+#terms {
+  position: relative;
+  top: 2px;
+  left: 0px;
+}
+
+.closing-x {
+  position: absolute;
+  top: 0px;
+  right: 5px;
+  cursor: pointer;
+}
+.closing-x button {
+  background-color: white;
+  color: grey;
+}
+#question-circle {
+  height: 100px;
+  width: 100px;
+  background-color: #3cb878;
+  border-radius: 50%;
+  color: white;
+  font-size: 70px;
+  text-align: center;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
